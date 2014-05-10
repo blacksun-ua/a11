@@ -1,0 +1,25 @@
+{
+  "name": "a11",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "forever server.js"
+  },
+  "dependencies": {
+    "express": "4.1.x",
+    "body-parser" : "1.0.x",
+    "method-override" : "1.0.x",
+    "request" : "0.2.x",
+    "jade": "1.3.x",
+  },
+  "engines" : {
+    "node": "0.10.x",
+    "forever" : "0.11.x",
+    "npm": "1.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.13.x",
+    "should": "1.3.x",
+    "supertest": "0.8.x"
+  }
+}
